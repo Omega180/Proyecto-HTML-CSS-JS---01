@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Curso CSS</title>
+    <link rel="Shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="theme-color" content="#2091F9">
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Aprende CSS desde cero">
+    <meta name="description" content="Hola, soy una descripcion que se vera cuando busques algo de mi tematica en google">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/Omega180/">
+    <meta property="og:title" content="Aprende CSS desde cero">
+    <meta property="og:description" content="Hola, soy una descripcion que se vera cuando busques algo de mi tematica en google">
+    <meta property="og:image" content="https://github.com/Omega180/images/css.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://github.com/Omega180/">
+    <meta property="twitter:title" content="Aprende CSS desde cero">
+    <meta property="twitter:description" content="Hola, soy una descripcion que se vera cuando busques algo de mi tematica en google">
+    <meta property="twitter:image" content="https://github.com/Omega180/images/css.jpg">
+</head>
+
+<body>
+    <!-- Contenedor de la Pagina de entrada -->
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav_logo">
+                <h2 class="nav_title"> Curso CSS</h2>
+            </div>
+            <!-- Menu que solo se muestra en resoluciones bajas -->
+            <ul class="nav_link nav_link--menu">
+                <li class="nav_items">
+                    <a href="#" class="nav_links">Inicio</a>
+                </li>
+                <li class="nav_items"nav_items">
+                    <a href="#" class="nav_links">Acerca de</a>
+                </li>
+                <li class="nav_items"nav_items">
+                    <a href="#" class="nav_links">Contacto</a>
+                </li>
+                <li class="nav_items"nav_items">
+                    <a href="#" class="nav_links">Blog</a>
+                </li>
+                <img src="images/close.svg" class="nav_close" alt="">
+            </ul>
+            <div class="nav_menu">
+                <img src="images/menu.svg" class="nav_img" alt="">
+            </div>
+        </nav>
+        <!-- Seccion principal -->
+        <section class="hero_container container">
+            <h1 class="hero_title"> Aprende CSS3 hasta dominarlo</h1>
+            <p class="hero_paragraph">
+                Elige aprender CSS de una vez por todas, una vez termines este curso seras capaz de crear cualquier layout con CSS y crear tus propias animaciones
+            </p>
+            <a href="#" class="cta">Comienza Ahora!</a>
+        </section>
+    </header>
+    <main>
+        <!-- Seccion contenedor sobre lo que se aprendera en el curso -->
+        <section class="container about">
+            <h2 class="subtitle"> ¿Que aprenderas en este curso?</h2>
+            <p class="about_paragraph"> Aprenderas manejo basico e intermedio de CSS</p>
+            <div class="about_main">
+                <article class="about_icons">
+                    <img src="./images/shapes.svg" class="about_icon" alt="">
+                    <h3 class="about_title"> CSS Layout</h3>
+                    <p class="about_paragraph">Aprenderas a manejar el poderoso sistema de CSS Layout el cual te permite crear diseños de alta customizacion</p>
+                </article>
+                <article class="about_icons">
+                    <img src="./images/paint.svg" class="about_icon" alt="">
+                    <h3 class="about_title"> Animaciones</h3>
+                    <p class="about_paragraph">Aprenderas a manejar el sistema de animaciones de CSS en alto nivel.</p>
+                </article>
+                <article class="about_icons">
+                    <img src="./images/code.svg" class="about_icon" alt="">
+                    <h3 class="about_title"> Sass</h3>
+                    <p class="about_paragraph">Aprenderas a manejar el lenguaje SASS para poder manejar CSS de mayor nivel</p>
+                </article>
+            </div>
+        </section>
+        <!-- Seccion Libros-->
+        <section class="knowledge">
+            <div class="knowledge_container container">
+                <div class="knowledge_texts">
+                    <h2 class="subtitle">Curso completo de CSS3</h2>
+                    <p class="knowledge_paragraph">Adquiere el curso de CSS3 completo para aumentar tus niveles de empleabilidad, asi como apliar tu conocimiento para tu proxima pagina web!</p>
+                    <a href="#" class="cta"> Entra en el Curso </a>
+                </div>
+                <figure class="knowledge_picture">
+                    <img src="./images/macbook.png" class="knowledge_img" alt="">
+                </figure>
+            </div>
+        </section>
+        <!-- Contenedor de Precios -->
+        <section class="price container">
+            <h2 class="subtitle">Obten el precio perfecto para aprender</h2>
+            <div class="price_table">
+                <div class="price_element">
+                    <p class="price_name">Flexbox</p>
+                    <h3 class="price_price">Free</h3>
+                    <div class="price_items">
+                        <p class="price_features">Flexbox</p>
+                        <p class="price_features">Layouts</p>
+                        <p class="price_features">Responsive</p>
+                    </div>
+                    <a href="#" class="price_cta">Ahora</a>
+                </div>
+                <div class="price_element price_element--best">
+                    <p class="price_name">Grid</p>
+                    <h3 class="price_price">30$/Mes</h3>
+                    <div class="price_items">
+                        <p class="price_features">Grid</p>
+                        <p class="price_features">Implicit Grid</p>
+                        <p class="price_features">Responsive</p>
+                    </div>
+                    <a href="#" class="price_cta">Empieza Ahora</a>
+                </div>
+                <div class="price_element">
+                    <p class="price_name">Animaciones</p>
+                    <h3 class="price_price">40$/Mes</h3>
+                    <div class="price_items">
+                        <p class="price_features">Animations</p>
+                        <p class="price_features">Transiciones</p>
+                        <p class="price_features">Render Website</p>
+                    </div>
+                    <a href="#" class="price_cta">Ahora</a>
+                </div>
+            </div>
+        </section>
+        <!-- Contenedor de Testimonios -->
+        <section class="testimony">
+            <div class="testimony_container container">
+                <img src="images/leftarrow.svg" class="testimony_arrow" id="before" alt="">
+                <section class="testimony_body testimony_body--show" data-id="1">
+                    <div class="testimony_texts">
+                        <h2 class="subtitle">Mi nombre es Cristina Arteaga, <span class="testimony_course"> estudiante de CSS</span></h2>
+                        <p class="testimony_review"> Aprendi a manejar CSS con este curso lo cual aumento mi nivel a avanzado</p>
+                    </div>
+                    <figure class="testimony_picture"><img src="images/face.jpg" alt="" class="testimony_img"></figure>
+                </section>
+
+                <section class="testimony_body " data-id="2">
+                    <div class="testimony_texts">
+                        <h2 class="subtitle">Mi nombre es Alejandra Pereze, <span class="testimony_course"> Estudiante de CSS</span></h2>
+                        <p class="testimony_review"> Aprender CSS me ayudo enormemente en mi carrera como programadora</p>
+                    </div>
+                    <figure class="testimony_picture"><img src="images/face2.jpg" alt="" class="testimony_img"></figure>
+                </section>
+                <section class="testimony_body " data-id="3">
+                    <div class="testimony_texts">
+                        <h2 class="subtitle">Mi nombre es Jose Reyes, <span class="testimony_course"> Estudiante de CSS</span></h2>
+                        <p class="testimony_review"> Este curso me ayudo a masterizarme en CSS para el desarrollo de una pagina web que estaba creando</p>
+                    </div>
+                    <figure class="testimony_picture"><img src="images/face3.jpg" alt="" class="testimony_img"></figure>
+                </section>
+                <section class="testimony_body " data-id="4">
+                    <div class="testimony_texts">
+                        <h2 class="subtitle">Mi nombre es Carlos Perez, <span class="testimony_course"> Estudiante de CSS</span></h2>
+                        <p class="testimony_review"> Como programador novato, este curso me ayudo a sentar las bases que necesitaba para los manejos de estilos en mi carrera</p>
+                    </div>
+                    <figure class="testimony_picture"><img src="images/face4.jpg" alt="" class="testimony_img"></figure>
+                </section>
+                <img src="./images/rightarrow.svg" class="testimony_arrow" id="next" alt="">
+            </div>
+        </section>
+        <!-- Contenedor de Preguntas frecuentes -->
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas Frecuentes</h2>
+            <p class="questions_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <section class="questions_container">
+                <article class="questions_padding">
+                    <div class="questions_answer">
+                        <h3 class="questions_title"> ¿Que es CSS? 
+                            <span class="questions_arrow">
+                                <img src="./images/arrow.svg" class="questions_img" alt="">
+                            </span>
+                        </h3>
+                        <p class="questions_show">CSS (siglas en inglés de Cascading Style Sheets), en español «Hojas de estilo en cascada», es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.</p>
+                    </div>
+                </article>
+
+                <article class="questions_padding">
+                    <div class="questions_answer">
+                        <h3 class="questions_title"> ¿Que es CSS Grid? 
+                            <span class="questions_arrow">
+                                <img src="./images/arrow.svg" class="questions_img" alt="">
+                            </span>
+                        </h3>
+                        <p class="questions_show">CSS Grid layout contiene funciones de diseño dirigidas a los desarrolladores de aplicaciones web. El CSS grid se puede utilizar para lograr muchos diseños diferentes. También se destaca por permitir dividir una página en áreas o regiones principales, por definir la relación en términos de tamaño, posición y capas entre partes de un control construido a partir de primitivas HTML.</p>
+                    </div>
+                </article>
+
+                <article class="questions_padding">
+                    <div class="questions_answer">
+                        <h3 class="questions_title"> ¿Que aprenderas en este curso? 
+                            <span class="questions_arrow">
+                                <img src="./images/arrow.svg" class="questions_img" alt="">
+                            </span>
+                        </h3>
+                        <p class="questions_show">Dependiendo de el nivel que escojas, aprenderas desde Flexbox, Layouts y Responsive design, asi como CSS Grid y Animations</p>
+                    </div>
+                </article>
+            </section>
+            <section class="questions_container">
+                <h2 class="subtitle">¿ Estas listo para aprender CSS?</h2>
+                <p class="questions_copy">No esperes mas e ingresa a nuestro curso ahora!</p>
+                <a href="#" class="cta">Aprende ahora</a>
+            </section>
+        </section>
+    </main>
+    <!-- Seccion del Footer -->
+    <footer class="footer">
+        <section class="footer_container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer_title">Curso CSS</h2>
+                    <ul class="nav_link nav_link--footer">
+                        <li class="nav_items">
+                            <a href="#" class="nav_links">Inicio</a>
+                        </li>
+                        <li class="nav_items"nav_items">
+                            <a href="#" class="nav_links">Acerca de</a>
+                        </li>
+                        <li class="nav_items"nav_items">
+                            <a href="#" class="nav_links">Contacto</a>
+                        </li>
+                        <li class="nav_items"nav_items">
+                            <a href="#" class="nav_links">Blog</a>
+                        </li>
+                    </ul>
+
+            </nav>
+            <!-- Formulario que enlaza con correo -->
+            <form action="https://formspree.io/f/xoqbvoed"
+            method="POST" class="footer_form">
+                <h2 class="footer_newsletter"> Subscribete a la newsletter</h2>
+                <div class="footer_inputs">
+                    <input type="email" name="email" class="footer_input" placeholder="Email:" >
+                    <input type="submit" class="footer_submit" value="Registrate" >
+                </div>
+            </form>
+        </section>
+        <section class="footer_copy container">
+            <div class="footer_social">
+                <a href="#" class="footer_icons"> <img src="./images/facebook.svg" class="footer_img"></a>
+                <a href="#" class="footer_icons"> <img src="./images/twitter.svg" class="footer_img"></a>
+                <a href="#" class="footer_icons"> <img src="./images/youtube.svg" class="footer_img"></a>
+            </div>
+            <h3 class="footer_copyright">Derechos Reservados &copy; Ciro Delgado</h3>
+        </section>
+    </footer>
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+</html>
